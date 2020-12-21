@@ -1,0 +1,36 @@
+
+body {
+    background-color: #dbdbdb;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+    user-select: none;
+    touch-action: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto min-content;
+    justify-content: center;
+    justify-items: end;
+    align-items: center;
+    gap: 5px 10px;
+}
+
+.centered {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+input {
+    margin: 0;
+}
